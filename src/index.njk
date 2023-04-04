@@ -10,8 +10,8 @@ layout: "layouts/base.njk"
         
         <div class="bragdoc__profile">
             <img class="bragdoc__photo" src="{{ '/images/profile_picture.jpg' | url }}">
-            <h1 class="bragdoc__name">Emily Y Leung</h1>
-            <div class="role">Systems Developer</div>
+            <h1 class="bragdoc__name">{{ data.site.name }}</h1>
+            <div class="role">{{ data.site.role }}</div>
         </div>
 
     	{% for post in collections.posts | reverse %}

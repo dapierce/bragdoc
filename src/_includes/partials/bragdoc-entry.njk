@@ -6,7 +6,9 @@
             {{ post.data.date | dateDisplay }}
         </span>
         <br/>
-        <h2 class="bragdoc__entry-title"><span class="bragdoc__icon">{{ post.data.icon }}</span> {{ post.data.name }}</h2>
+        <h2 class="bragdoc__entry-title">
+            <span class="bragdoc__icon">{{ post.data.icon }}</span> {% if post.data.link %}<a href="{{post.data.link}}">{% endif %}{{ post.data.name }}{% if post.data.link %}</a>{% endif %}
+        </h2>
         <div class="bragdoc__entry-content">
             {{ post.templateContent | safe }}
         </div>
