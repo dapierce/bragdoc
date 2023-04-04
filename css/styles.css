@@ -2,20 +2,20 @@
 	--logo: black;
 	--name: black;
 	--entry-title: black;
-	--date: #BDBDBD;
-	--text: #676a6c;
+	--date: #666666;
+	--text: #4b4d4e;
 	--entry-line: #f1f1f1;
 	--entry-circle: #ddd;
 	--background: white;
 	--text-code: grey;
 	--code-block: rgba(0,0,0,0.05);
-	--link-text: #676a6c;
+	/* --link-text: #4b4d4e; */
 	--link-hover: orange;
 	--quote-block-edge: rgba(255, 165, 0, 0.5);
-	--quote-block-text: #676a6c;
-	--table-border: #676a6c;
-	--footer: #BDBDBD;
-	--tag: #BDBDBD;
+	--quote-block-text: #4b4d4e;
+	--table-border: #4b4d4e;
+	--footer: #666666;
+	--tag: #666666;
 }
 
 html[data-theme="dark"] {
