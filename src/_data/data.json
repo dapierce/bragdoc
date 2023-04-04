@@ -3,9 +3,9 @@
     {
         "name": "David A Pierce",
         "role": "Mapping Systems Specialist",
-        "description": "Eleventy theme inspired by Julia Evan's Brag Document. Original Bragdocs design by Jonny Burch and the team at Progression.app.",
-        "url": "https://emilyyleung.github.io",
-        "baseUrl": "/eleventy-bragdoc/",
+        "description": "Personal bragdoc, based on a template by Emily Y Leung and using Eleventy static site generator.",
+        "url": "https://dapierce.github.io",
+        "baseUrl": "/bragdoc/",
         "author":
         {
             "handle": "@dapierce",
