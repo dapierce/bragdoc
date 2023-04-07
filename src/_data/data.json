@@ -3,7 +3,7 @@
     {
         "name": "David A Pierce",
         "role": "Mapping Systems Specialist",
-        "description": "Personal bragdoc, based on a template by Emily Y Leung and using Eleventy static site generator.",
+        "description": "Personal brag document, a listing of accomplishments and things I'm proud of.",
         "url": "https://dapierce.github.io",
         "baseUrl": "/bragdoc/",
         "author":
